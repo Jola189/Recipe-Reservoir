@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Reservoir</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+     <div class="hero">
+        <h1>🍕 Welcome to Recipe Reservoir</h1>
+    </div>
+    
+    <div class="main">
+
+            <div class="main_text">
+                <h2>Get Exceptional <span>Recipes</span><br>in a Healthy, Better way</h2>
+            </div>
+
+            <p>Sign up or log in to access thousands of delicious recipes.</p>
+
+            <div class="main_img">
+                <img src="{{ url_for('static', filename='assets/pizza_homepage.jpg') }}" alt="Food">
+            </div>
+
+        </div>
+        
+    <div class="topnav">
+        <div class="auth-buttons">
+            <a href="{{ url_for('login') }}"><button class="login-btn">Login</button></a>
+            <a href="{{ url_for('signup') }}"><button class="signup-btn">Sign Up</button></a>
+        </div>
+    </div>
+</body>
+</html>

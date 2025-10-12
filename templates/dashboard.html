@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Recipe Reservoir</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="topnav">
+    <a href="{{ url_for('home') }}">Home</a>
+    <a href="{{ url_for('recipesall') }}">All Recipes</a>
+    <a href="{{ url_for('glutenfreerecipes') }}">Gluten Free Recipes</a>
+    <a href="{{ url_for('dairyfree') }}">Dairy Free Recipes</a>
+    <a href="{{ url_for('veganrecipes') }}">Vegan Recipes</a>
+    <a href="{{ url_for('logout') }}">Logout</a>
+    <span class="welcome">Welcome, {{ user['first_name'] }} {{ user['last_name'] }} 🎉</span>
+  </div>
+
+  <div class="container">
+    <h1>Dashboard</h1>
+    <p>Explore amazing recipes tailored for you.</p>
+    <a href="{{ url_for('recipesall') }}">
+      <button class="view-recipes-btn">🍲 View All Recipes</button>
+    </a>
+  </div>
+</body>
+</html>
