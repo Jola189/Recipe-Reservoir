@@ -84,14 +84,12 @@ section .main .main_text h2{
     font-size: 28px;
     position: relative;
     top: -90px;
-    /* left: 20px;  */
     margin-left: 100px;
 }
 
 section .main .main_img img{
     width: 700px;
     position: relative;
-    /* left: 5px; */
 }
 
 section p{
@@ -105,7 +103,7 @@ section p{
 
 /* the login and sign up buttons*/
 .login-btn {
-    background-color: rgba(253, 220, 56, 0.95); /* Blue */
+    background-color: rgba(253, 220, 56, 0.95); /* Yellow */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -116,11 +114,11 @@ section p{
     margin-left: 100px;
 }
 .login-btn:hover {
-    background-color: rgba(220, 188, 31, 0.95);
+    background-color: rgba(186, 163, 46, 0.95);
     cursor: pointer;
 }
 .signup-btn {
-    background-color: rgba(253, 220, 56, 0.95); /* Green */
+    background-color: rgba(148, 225, 80, 0.95); /* Green */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -130,6 +128,6 @@ section p{
     margin-top: 15px;
 }
 .signup-btn:hover {
-    background-color: rgba(220, 188, 31, 0.95);
+    background-color: rgba(117, 180, 63, 0.95);
     cursor: pointer;
 }
