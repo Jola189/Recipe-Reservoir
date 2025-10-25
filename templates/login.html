@@ -4,15 +4,33 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - Recipe Hub</title>
-  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='stylelogin.css') }}">
 </head>
 <body style="background-color: #AEC3B0;">
 
+  <section>
+        <nav>
+            <!-- <div class="logo">
+                <img src="{{ url_for('static', filename='assets/Larana_boutiquE.png') }}" alt="Logo">
+            </div> -->
+
+            <ul>
+    <li><a href="{{ url_for('home') }}">Home</a></li>
+    <li><a href="{{ url_for('signup') }}">Signup</a></li>
+</ul>
+
+
+        </nav>
+
   <!-- Top Navigation -->
-  <div class="topnav">
+  <!-- <div class="topnav">
       <a class="nav-link" href="{{ url_for('home') }}">Home</a>
       <a class="nav-link" href="{{ url_for('signup') }}">Sign Up</a>
-  </div>
+  </div> -->
+
+
+  <br>
+  <br>
 
   <h1>Log In</h1>
 
